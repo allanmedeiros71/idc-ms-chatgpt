@@ -59,7 +59,6 @@ Adicionar a linha abaixo:
 
 ### Desafio
 #### Docker e Kubernetes
-Fase 100
 **Informações do desafio**
 
 No desafio Docker e Kubernetes, você deve utilizar todos os conhecimentos da aula 01 e 02 para fazer o deploy da aplicação Kube-news no Kubernetes:
@@ -85,5 +84,18 @@ Template de rede para o EKS do CloudFormations:
 https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml
 
 ## Aula 04
+
+### Desafio
+#### AWS + Github Actions.
+**Informações do desafio**
+
+No desafio AWS e GitHub Actions, você deve utilizar todos os conhecimentos da aula 03 e 04 para criar uma pipeline de CI/CD aplicação Kube-news no Kubernetes:
+
+https://github.com/KubeDev/kube-news
+
+A aplicação precisa ser entregue em um cluster Kubernetes na AWS com o EKS. Não precisa manter o cluster Kubernetes para a correção, ela vai ser feita com um cluster nosso. ;-)
+
+Utilize o mesmo repositório que você usou para o desafio Docker e Kubernetes e me envie pra que eu possa corrigir e te passar um feedback.
+
 
 ## Aula 05
