@@ -57,6 +57,27 @@ Adicionar a linha abaixo:
 
 127.0.0.1       keycloak
 
+### Desafio
+#### Docker e Kubernetes
+Fase 100
+**Informações do desafio**
+
+No desafio Docker e Kubernetes, você deve utilizar todos os conhecimentos da aula 01 e 02 para fazer o deploy da aplicação Kube-news no Kubernetes:
+
+https://github.com/KubeDev/kube-news
+
+A aplicação é desenvolvida em NodeJs e utiliza um banco de dados PostgreSQL. Então, a primeira dica que eu dou pra você, é usar a imagem oficial do Postegre que está no Docker Hub e seguir as configurações que estão na documentação (https://hub.docker.com/_/postgres).
+
+Sobre a aplicação, ela utiliza a porta 8080 e possui os seguintes parâmetros de configuração:
+
+**DB_DATABASE => Nome do banco de dados que vai ser usado.**  
+**DB_USERNAME => Usuário do banco de dados.**  
+**DB_PASSWORD => Senha do usuário do banco de dados.**  
+**DB_HOST => Endereço do banco de dados.**  
+
+Faça um fork do repositório do projeto, crie o Dockerfile e os manifestos do Kubernetes para executar a aplicação no ambiente e me envie pra que eu possa corrigir e te passar um feedback.
+
+
 ## Aula 03
 
 Template de rede para o EKS do CloudFormations:
